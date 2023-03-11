@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ES2015",
+    "declaration": true,
+    "declarationDir": "lib/types",
+    "declarationMap": true,
+	"outDir": "lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "nodenext",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "example"]
+}

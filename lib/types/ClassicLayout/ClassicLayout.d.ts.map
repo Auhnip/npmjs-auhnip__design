@@ -1,0 +1,1 @@
+{"version":3,"file":"ClassicLayout.d.ts","sourceRoot":"","sources":["../../../src/ClassicLayout/ClassicLayout.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAC/B,OAA+B,EAC7B,KAAK,kBAAkB,EACvB,KAAK,eAAe,EACrB,MAAM,0BAA0B,CAAC;AAIlC,UAAU,MAAM;IACd,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAC;CAC3B;AAUD,QAAA,MAAM,aAAa;mBAAkB,MAAM;;;;;;CAoC1C,CAAC;AA6BF,eAAe,aAAa,CAAC"}

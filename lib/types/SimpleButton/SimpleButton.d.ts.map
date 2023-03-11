@@ -1,0 +1,1 @@
+{"version":3,"file":"SimpleButton.d.ts","sourceRoot":"","sources":["../../../src/SimpleButton/SimpleButton.tsx"],"names":[],"mappings":";AAGA,UAAU,MAAM;IACd,QAAQ,CAAC,EAAE,MAAM,GAAG,MAAM,CAAC;IAC3B,OAAO,CAAC,EAAE,MAAM,IAAI,CAAC;CACtB;AAED,iBAAS,YAAY,CAAC,EAAE,QAAQ,EAAE,OAAO,EAAE,EAAE,MAAM,eAMlD;AAED,eAAe,YAAY,CAAC"}
