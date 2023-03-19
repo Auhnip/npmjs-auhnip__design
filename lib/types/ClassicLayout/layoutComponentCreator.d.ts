@@ -1,6 +1,8 @@
 import * as React from 'react';
 interface IProps {
     hidden: boolean;
+    height?: number;
+    width?: number;
     children?: React.ReactNode;
 }
 type allowHideComponent = ({ hidden, children }: IProps) => JSX.Element;

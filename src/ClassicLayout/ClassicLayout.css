@@ -13,7 +13,8 @@
 
 .classic-layout-header,
 .classic-layout-footer {
-    flex: 0 1 15vh;
+    flex: 0 1 auto;
+    height: 10vh;
     padding: 0;
     margin: 0;
 }
