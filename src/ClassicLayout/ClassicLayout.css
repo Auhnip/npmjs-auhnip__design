@@ -37,7 +37,8 @@
 @media all and (min-width: 481px) {
     .classic-layout-left-sidebar,
     .classic-layout-right-sidebar {
-        flex: 0 1 max(20vw, 200px);
+        flex: 0 1 auto;
+        width: max(20vw, 200px);
         padding: 0;
         margin: 0;
         transition: all 0.3s ease-out;

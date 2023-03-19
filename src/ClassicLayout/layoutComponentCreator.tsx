@@ -21,7 +21,7 @@ function layoutComponentCreator(
     | 'footer',
   hiddenClassNameSuffix?: 'left' | 'right'
 ): normalComponent | allowHideComponent {
-  const HiddenComponent = ({ hidden, height, width, children }: IProps) => {
+  const HiddenComponent: allowHideComponent = ({ hidden, height, width, children }: IProps) => {
     const ComponentName = tag;
 
     let className = layoutStyle[`classic-layout-${classNameSuffix}`];
@@ -31,16 +31,13 @@ function layoutComponentCreator(
       }`;
     }
 
-    const styleObject: React.CSSProperties = {}
+    const styleObject: React.CSSProperties = {};
 
-    height && (styleObject.height = `${height}px`)
-    width && (styleObject.width = `${width}px`)
+    height && (styleObject.height = `${height}px`);
+    width && (styleObject.width = `${width}px`);
 
     return (
-      <ComponentName
-        className={className}
-        style={styleObject}
-      >
+      <ComponentName className={className} style={styleObject}>
         {children}
       </ComponentName>
     );

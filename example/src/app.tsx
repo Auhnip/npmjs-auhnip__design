@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import { ClassicLayout, TextBox } from '@auhnip/design';
 // import { ClassicLayout, TextBox } from '../../src';
 
+const { Header, Content, LeftSidebar } = ClassicLayout;
+
 const App = function () {
   return (
     <ClassicLayout>
-      <ClassicLayout.Header>
+      <Header>
         <TextBox>Header</TextBox>
-      </ClassicLayout.Header>
-      <ClassicLayout.Content>
+      </Header>
+      <Content>
         <TextBox>
           <div>
             本手是符合棋理正规下棋，循规蹈矩。妙手乃出人意料神来之笔，玄妙入神。练好本手，铸我王者之基，自能惯战能征，所向披靡。有妙手伴身，更能出奇制胜，速战速决。但是，妙手虽好，若一味追求妙手而未能练好本手，将难免下出俗手，棋力难提。围棋如此，做人做事亦如此。对此，我辈当为求妙招炼本手，相信自将去俗创奇迹。
@@ -32,10 +34,10 @@ const App = function () {
             <br />
           </div>
         </TextBox>
-      </ClassicLayout.Content>
-      <ClassicLayout.LeftSidebar hidden={false}>
+      </Content>
+      <LeftSidebar hidden={false}>
         <TextBox>LeftSidebar</TextBox>
-      </ClassicLayout.LeftSidebar>
+      </LeftSidebar>
     </ClassicLayout>
   );
 };
